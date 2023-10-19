@@ -17,7 +17,7 @@ public class App {
         scan.close();
 
         // Conditions
-        if (salaireAnnuel >= 30000 && anneeTravallees >= 2) { // Si le salaire est supérieur ou égal à 30000€ par an et que le nombre d'années travaillées est supérieur à 2, le prêt est accepté
+        if (salaireAnnuel > 30000 && anneeTravallees >= 2) { // Si le salaire est supérieur ou égal à 30000€ par an et que le nombre d'années travaillées est supérieur à 2, le prêt est accepté
             System.out.println("Félicitation ! Votre prêt est accepté !");
         } else { // Sinon, le prêt n'est pas accepté
             System.out.println("Votre prêt n'est pas accepté.");
